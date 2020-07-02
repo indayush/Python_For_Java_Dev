@@ -8,5 +8,8 @@ I thank all the trainers that made their content available for people. I will cr
 Python Basics for Java Developers by Mrs. Deepa Muralidhar (This is where i started from)
 https://www.linkedin.com/learning/python-basics-for-java-developers
 
-Python Tutorial for beginners by Mr. Kumar Kaushik (Highly Recommend if wanna learn more about theory too)
+Python Tutorial for beginners by Mr. Kumar Kaushik (Highly Recommend if wanna learn more about theory too. It's in Hindi language though)
 https://youtu.be/aalQrDq1UkI
+
+Learning Python by Mr. Joe Marini (Great for practicing)
+https://www.linkedin.com/learning/learning-python-2/
