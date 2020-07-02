@@ -97,3 +97,45 @@ print(oneDefaultfunc(5,5))
 Arg 1 -  5  & Arg 2 -  5
 25
 '''
+
+# Function with dynamic multiple arguments
+def multi_Args(*args):
+    result = 0
+    msg = "Final Sum is "
+
+    for x in args:
+        result = result + x
+        print("In For - ",result)
+
+    #Case 1
+    # return ("Final sum is ",result)
+    # return "Final sum is ",result
+    # o/p returned for above two returns are | ('Final sum is ', 50)
+
+    #Case 2
+    msg = msg + str(result)
+    return msg
+    # o/p returned is | Final sum is 50
+
+
+multi_Args(5,10,15,20)
+'''
+o/p - 
+5
+15
+30
+50
+'''
+
+print('=================================')
+print(multi_Args(5,10,15,20))
+'''
+Outputs in -
+
+Case 1                                                      Case 2
+In For -  5                                                 In For -  5                                                 
+In For -  15                                                In For -  15                                                 
+In For -  30                                                In For -  30
+In For -  50                                                In For -  50
+('Final sum is ', 50)                                       Final Sum is 50
+'''
