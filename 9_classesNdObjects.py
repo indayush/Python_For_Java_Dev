@@ -7,6 +7,7 @@ Overloaded Constructor declaaration
 def __init__(arg1, arg2, arg3):
     
 '''
+# Simple Example - 
 
 class employee:
        

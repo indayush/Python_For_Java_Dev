@@ -1,5 +1,5 @@
 # Python by default dosent have a switch statement/Functionality. 
-# Makeshift of such scenario -
+# Makeshift of such scenario by creating our own function capable of working like switch -
 
 def switch_Function(case):
     switch = {
