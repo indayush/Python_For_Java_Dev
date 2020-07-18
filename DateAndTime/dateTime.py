@@ -6,7 +6,8 @@ import time                                         # Directly importing the lib
 from datetime import date                           # Importing library from it's module
 from datetime import datetime
 
-
+# imported timedelta here only because i was unable to import it in the dateTimeOperations.py file
+from datetime import timedelta
 # Defining Main function
 def main():
     
@@ -45,3 +46,18 @@ def main():
 
 # Calling Main
 main()
+'''
+Outputs -
+
+2020-07-18
+day =  18
+month =  7
+year =  2020
+weekday =  5
+ISO weekday =  6
+Today's Day is Sat
+2020-07-18 21:02:07.329019
+2020_07_18_21_02_07.329019
+2020-07-18 21:02:07
+2020_07_18_21_02_07
+'''
