@@ -236,6 +236,24 @@ def parseRawJsonData(jsonRawData):
             --------------
         '''    
     
+    # print only the events where at least 1 person reported feeling something
+    print ("\n\nEvents that were felt:")
+    for i in pyObjForJson["features"]:
+        feltReports = i["properties"]["felt"]
+        if (feltReports != None):
+            if (feltReports > 0):
+                print ("%2.1f" % i["properties"]["mag"], i["properties"]["place"], " reported " + str(feltReports) + " times")
+
+    '''
+        2.5 14km SW of Whitehawk, CA  reported 1 times
+        2.6 7 km WSW of Funny River, Alaska  reported 2 times
+        3.6 50 km SSE of Sand Point, Alaska  reported 2 times
+        5.3 45 km WNW of Madang, Papua New Guinea  reported 13 times
+        3.0 8km NE of Alum Rock, CA  reported 353 times
+        2.8 11 km NW of Clarks Point, Alaska  reported 5 times
+        3.9 53 km NNE of Iquique, Chile  reported 12 times
+        3.6 45 km NNE of McGrath, Alaska  reported 1 times
+    '''
 
 # Parsing JSON Data for Python - 
 if responseCode == 200:
