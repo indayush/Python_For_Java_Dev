@@ -13,3 +13,9 @@ https://youtu.be/aalQrDq1UkI
 
 Learning Python by Mr. Joe Marini (Great for practicing)
 https://www.linkedin.com/learning/learning-python-2/
+
+Course Traversing Sequence - 
+1. Basics
+2. DateAndTime
+3. fileHandling
+4. WebUtils
